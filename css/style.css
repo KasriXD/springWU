@@ -1,0 +1,23 @@
+body{
+margin:0;
+font-family:Arial;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px;
+border-bottom:2px solid black;
+}
+
+main{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:40px;
+padding:20px;
+}
+
+.video img{
+width:100%;
+}
