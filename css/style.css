@@ -94,3 +94,47 @@ main.search-results {
   width: 180px;
   border-radius: 6px;
 }
+
+.video-img { 
+    width: 100%;
+    border-radius: 6px; 
+} 
+
+.video-desc { 
+    font-size: 14px; 
+    color: #333; 
+} 
+
+.comments { 
+    margin-top: 20px; 
+} 
+
+.comment-box { 
+    display: flex; 
+    gap: 8px; 
+    margin-bottom: 16px; 
+} 
+
+.comment-box input { 
+    flex: 1; 
+    padding: 8px; 
+    border: 1px solid #90caf9; 
+    border-radius: 4px; 
+} 
+
+.comment-box button { 
+    padding: 8px 14px; 
+    background-color: #1a73e8; 
+    color: white; border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+} 
+
+.comment { 
+    margin-bottom: 12px; 
+    font-size: 14px; 
+} 
+
+.comment p { 
+    margin: 2px 0 0; 
+}
