@@ -96,7 +96,7 @@ main.search-results {
 }
 
 .video-img { 
-    width: 100%;
+    width: 50%;
     border-radius: 6px; 
 } 
 
@@ -137,4 +137,26 @@ main.search-results {
 
 .comment p { 
     margin: 2px 0 0; 
+}
+
+.recommended { 
+    width: 260px; 
+    flex-shrink: 0; 
+} 
+
+.rec-title { 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+
+.video-page {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.video-main {
+  flex: 1;
+  max-width: 800px;
 }
