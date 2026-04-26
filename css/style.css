@@ -189,3 +189,28 @@ main.search-results {
     cursor: pointer; 
     font-size: 15px; 
 }
+
+@media (max-width: 700px) { 
+    main { 
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 14px; 
+        padding: 12px; 
+    } 
+    .search-bar input { 
+        width: 120px; 
+    } 
+    .search-video img { 
+        width: 120px; 
+    } 
+    .video-page { 
+        flex-direction: column; 
+    } 
+    .recommended { 
+        width: 100%; 
+    } 
+}
+@media (max-width: 450px) { 
+    main { 
+        grid-template-columns: 1fr; 
+    } 
+}
